@@ -1,0 +1,83 @@
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css');
+* {
+    box-sizing: border-box;
+}
+
+/*tamanho dos icones*/
+.icon-tamanho {
+  width: 5rem!important;
+}
+
+.logo-tamanho {
+  width: 2.7rem!important;
+}
+
+/*borda padrão*/
+.my-border {
+  border: 1px solid #34CB79!important;
+  border-radius: 10px!important;
+}
+
+.my-border-nbr {
+  border: 1px solid #34CB79!important;
+}
+
+.my-border-black {
+  border: 1px solid rgba(0, 0, 0, 0.3)!important;
+  border-radius: 10px!important;
+}
+
+/* cor padrão*/
+.color-pr {
+  color: #34CB79!important;
+}
+
+/*botão padrão*/
+.botao-pr {
+  color: white!important;
+  background-color: #34CB79!important; 
+}
+
+/*cor dos titles*/
+.color-1 {
+  color: #322153!important;
+}
+
+.color-2 {
+  color: #6C6C80!important;
+}
+
+.color-3 {
+  color: #2FB86E!important;
+}
+
+.alturapesoform {
+  width: 9rem;
+  font-size: 3rem;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3)!important;
+}
+.alturapesoform:focus{
+  outline: none;
+}
+
+.emailform {
+  max-width: 375px;
+  width: 100%;
+  padding: 0.8rem 1rem 0.8rem 1rem!important;
+  border-radius: 8px!important;
+  border: 1px solid rgba(0, 0, 0, 1)!important;
+}
+.emailform::placeholder{
+  color: #A0A0B2;
+}
+
+#datanasc {
+  background-color: white!important;
+}
+
+@media (max-width: 414px) {
+  #health-title {
+    display: block;
+  }
+}
